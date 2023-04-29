@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 249, 249);
+    background-color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    background-color: #01699d5f;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    color:white;
+    padding: 20px;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
+
+.number_of_char {
+    display: flex;
+    justify-content: center;
+}
+
+#number_of_char {
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 22px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border: 1px solid #01699d;
+}
+
+.serial {
+    width: max-content;
+    padding: 20px;
+    margin: 20px auto 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    height: 66px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.generate {
+    background-color: #01699d;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: max-content;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+.generate:hover {
+    background-color: #01699d;
+}
